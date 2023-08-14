@@ -1,0 +1,24 @@
+{
+  "index": {
+    "title": "首页",
+    "type": "page"
+  },
+  "tutorials": {
+    "title": "教程",
+    "type": "page"
+  },
+  "price": {
+    "title": "价格",
+    "type": "page"
+  },
+  "blog": {
+    "title": "Blog",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://twitter.com/shuding_",
+    "newWindow": true
+  }
+}
