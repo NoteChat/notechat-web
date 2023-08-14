@@ -4,14 +4,11 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span>TextOps</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
-  },
-  chat: {
-    link: 'https://discord.com',
+    link: 'https://github.com/wewoor/textops-web',
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'TextOps © 2023',
   },
   i18n: [
     { locale: 'en', text: 'English' },
