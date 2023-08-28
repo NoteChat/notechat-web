@@ -3,12 +3,12 @@
     "title": "Home",
     "type": "page"
   },
-  "tutorials": {
-    "title": "Tutorials",
-    "type": "page"
-  },
   "price": {
     "title": "Price",
+    "type": "page"
+  },
+  "tutorials": {
+    "title": "Tutorials",
     "type": "page"
   },
   "blog": {

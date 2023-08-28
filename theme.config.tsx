@@ -11,8 +11,8 @@ const config: DocsThemeConfig = {
     text: 'TextOps © 2023',
   },
   i18n: [
-    { locale: 'en', text: 'English' },
     { locale: 'zh', text: '中文' },
+    { locale: 'en', text: 'English' },
   ]
 }
 
