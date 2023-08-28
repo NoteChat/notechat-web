@@ -14,8 +14,8 @@ declare global {
 
 export const Price: React.FC<{}> = () => {
     return (
-        <div className="mt-6 mb-10">
-            <h2 className="text-center text-3xl pt-3 pb-3 font-bold">价格</h2>
+        <div className="h-[500px] mt-6 mb-10">
+            <h2 className="text-center text-3xl pt-3 pb-8 font-bold">产品价格</h2>
             <div>
                 <script
                     async

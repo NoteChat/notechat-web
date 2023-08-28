@@ -6,8 +6,8 @@
       "layout": "raw"
     }
   },
-  "price": {
-    "title": "价格",
+  "template": {
+    "title": "文案模版",
     "type": "page",
     "theme": {
       "layout": "raw"
