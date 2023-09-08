@@ -13,7 +13,7 @@ const Head = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{frontMatter.title || 'NoteChat'}</title>
         <meta name="keywords" content={frontMatter.keywords || 'NoteChat,AIGC,ChatGPT,ChatGPT-4'} />
-        <link rel="icon" href="/favicon.png" type="image/png"></link>
+        <link rel="icon" href="./favicon.png" type="image/png"></link>
         <meta property="og:url" content={url} />
       </>
     )
