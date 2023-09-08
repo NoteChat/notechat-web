@@ -6,25 +6,39 @@
       "layout": "raw"
     }
   },
-  "template": {
-    "title": "文案模版",
+  "price": {
+    "title": "价格",
     "type": "page",
     "theme": {
       "layout": "raw"
     }
   },
-  "tutorials": {
-    "title": "教程",
-    "type": "page"
+  "download": {
+    "title": "下载",
+    "type": "page",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "document": {
+    "title": "文档",
+    "type": "menu",
+    "items": {
+      "tutorials": {
+        "title": "教程",
+        "type": "page"
+      },
+      "template": {
+        "title": "提示模版",
+        "type": "page",
+        "theme": {
+          "layout": "raw"
+        }
+      }
+    }
   },
   "blog": {
     "title": "博客",
     "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
   }
 }

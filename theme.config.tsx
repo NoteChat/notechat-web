@@ -2,15 +2,19 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import Image from 'next/image'
 import Logo from './logo.png'
+import { ExtraContent } from './components/navbar'
+
 
 const config: DocsThemeConfig = {
   logo: <span><Image alt="logo" src={Logo} height={42} style={{borderRadius: '3px'}}/></span>,
-  project: {
-    link: 'https://github.com/wewoor/textops-web',
+  search: {
+    placeholder: 'Search',
   },
-  // docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  navbar: {
+    extraContent: <ExtraContent />,
+  },
   footer: {
-    text: 'TextOps © 2023',
+    text: 'NoteChat © 2023',
   },
   i18n: [
     { locale: 'zh', text: '中文' },
