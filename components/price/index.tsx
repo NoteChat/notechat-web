@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./style.module.css";
 import Script from "next/script";
+import { getCookie } from "../../utils";
 
 declare global {
     namespace JSX {
@@ -16,6 +17,9 @@ declare global {
 export const Price: React.FC<{}> = () => {
     const tableId = process.env.NEXT_PUBLIC_STRIPE_TABLE_ID;
     const tableKey = process.env.NEXT_PUBLIC_STRIPE_TABLE_KEY;
+    const email = getCookie('username')
+    const uid = getCookie('uid')
+
     return (
         <div className="h-[500px] mt-6 mb-10">
             <h2 className="text-center text-3xl pt-3 pb-8 font-bold">
@@ -30,6 +34,8 @@ export const Price: React.FC<{}> = () => {
                 <stripe-pricing-table
                     pricing-table-id={tableId}
                     publishable-key={tableKey}
+                    customer-email={email}
+                    client-reference-id={uid}
                 ></stripe-pricing-table>
             </div>
         </div>

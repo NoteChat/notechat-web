@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 export function ExtraContent() {
     const [content, setContent] = useState(<Link href="https://app.notechat.xyz/#/login">Login</Link>);
-    const { t } = useTranslation();
+    const {t } = useTranslation();
 
     useEffect(() => {
      
@@ -20,7 +20,6 @@ export function ExtraContent() {
     }, [])
 
     useEffect(() => {
-        const username = getCookie("username");
         const uid = getCookie("uid");
         if (uid) {
             setContent(

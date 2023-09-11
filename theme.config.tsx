@@ -15,7 +15,7 @@ const config: DocsThemeConfig = {
     extraContent: <ExtraContent />,
   },
   footer: {
-    text: 'NoteChat © 2023',
+    text: 'NoteChat, Prettify, LLC  © 2023',
   },
   i18n: [
     { locale: 'zh', text: '中文' },
