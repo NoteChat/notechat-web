@@ -1,17 +1,31 @@
 import { Link } from "nextra-theme-docs";
 import { useEffect, useState } from 'react';
-import { getCookie } from "../../utils";
+import { getCookie, listenCookieChange } from "../../utils";
+import { useTranslation } from 'react-i18next';
 
 export function ExtraContent() {
     const [content, setContent] = useState(<Link href="https://app.notechat.xyz/#/login">Login</Link>);
+    const { t } = useTranslation();
 
     useEffect(() => {
-        const uid = localStorage.getItem("uid");
+     
+        listenCookieChange(({ oldValue, newValue }) => {
+            const oldUsername = getCookie("username", oldValue);
+            const username = getCookie("username", newValue);
+            if (oldUsername !== username) {
+                window.location.reload();
+            }
+        })
+
+    }, [])
+
+    useEffect(() => {
         const username = getCookie("username");
+        const uid = getCookie("uid");
         if (uid) {
             setContent(
                 <>
-                    <Link href="https://app.notechat.xyz/#/chat">{username}</Link>
+                    <Link href="https://app.notechat.xyz/#/chat">{t('enterApp')}</Link>
                 </>
             );
         }

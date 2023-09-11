@@ -1,11 +1,18 @@
 import Script from "next/script";
 import "../styles/globals.css";
+import i18n from '../i18n';  
+import { I18nextProvider } from 'react-i18next';
+import { useRouter } from 'next/router'
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
+    const { locale } = useRouter();
+    i18n.changeLanguage(locale);
     return (
         <>
-            <Component {...pageProps} />
+            <I18nextProvider i18n={i18n}>
+                <Component {...pageProps} />
+            </I18nextProvider>
             <Script
                 id="googleA"
                 async
@@ -27,5 +34,5 @@ export default function MyApp({ Component, pageProps }) {
                 }}
             ></Script>
         </>
-    )
+    );
 }

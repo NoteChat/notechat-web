@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Logo from './logo.png'
 import { ExtraContent } from './components/navbar'
 import Head from './components/head'
-import favicon from './favicon.png'
 
 const config: DocsThemeConfig = {
   logo: <span><Image alt="logo" src={Logo} height={42} style={{borderRadius: '3px'}}/></span>,
@@ -25,3 +24,4 @@ const config: DocsThemeConfig = {
 }
 
 export default config
+
