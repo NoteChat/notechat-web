@@ -8,6 +8,7 @@ import { useRouter } from 'next/router'
 export default function MyApp({ Component, pageProps }) {
     const { locale } = useRouter();
     i18n.changeLanguage(locale);
+    localStorage.setItem('lang', locale)
     return (
         <>
             <I18nextProvider i18n={i18n}>
