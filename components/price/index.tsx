@@ -31,9 +31,10 @@ export const Price: React.FC<{}> = () => {
 
     return (
         <div className="h-[800px] mt-6 mb-10">
-            <h2 className="text-center text-3xl pt-3 pb-8 font-bold">
+            <h2 className="text-center text-3xl pt-3 pb-4 font-bold">
                 {t('productPrice.title')}
             </h2>
+            <h4 className=" p-4 text-center text-2xl text-slate-600 pb-8">{t('productNotice.desc')}</h4>
             <div>
                 <Script
                     id="stripe"
