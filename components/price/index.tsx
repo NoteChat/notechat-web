@@ -30,7 +30,7 @@ export const Price: React.FC<{}> = () => {
     }, [])
 
     return (
-        <div className="h-[500px] mt-6 mb-10">
+        <div className="h-[800px] mt-6 mb-10">
             <h2 className="text-center text-3xl pt-3 pb-8 font-bold">
                 {t('productPrice.title')}
             </h2>
