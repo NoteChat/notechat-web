@@ -1,5 +1,6 @@
 {
     "enterApp": "进入应用",
-    "bannerTitle": "一款基于 ChatGPT 的对话文本处理、文档编辑工具",
-    "bannerDesc": "支持 Prompt 模版插件, 支持 Markdown, MDX, Txt 等文档类型"
+    "bannerTitle": "一款插件式的，基于 ChatGPT 的文本、文档处理工具",
+    "bannerDesc": "支持聊天模式；Prompt 模版插件；支持 URL 访问，Markdown 文档类型",
+    "productPrice.title": "产品价格"
 }

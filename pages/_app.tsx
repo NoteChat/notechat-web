@@ -1,4 +1,5 @@
 import Script from "next/script";
+import { useEffect } from "react";
 import "../styles/globals.css";
 import i18n from '../i18n';  
 import { I18nextProvider } from 'react-i18next';
@@ -8,7 +9,10 @@ import { useRouter } from 'next/router'
 export default function MyApp({ Component, pageProps }) {
     const { locale } = useRouter();
     i18n.changeLanguage(locale);
-    localStorage.setItem('lang', locale)
+
+    useEffect(() => {
+        localStorage.setItem('lang', locale)
+    }, [])
     return (
         <>
             <I18nextProvider i18n={i18n}>

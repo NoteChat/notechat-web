@@ -1,15 +1,41 @@
 {
   "index": {
     "title": "Home",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "layout": "raw"
+    }
   },
   "price": {
     "title": "Price",
-    "type": "page"
+    "type": "page",
+    "theme": {
+      "layout": "raw"
+    }
   },
-  "tutorials": {
-    "title": "Tutorials",
-    "type": "page"
+  "download": {
+    "title": "Download",
+    "type": "page",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "document": {
+    "title": "Document",
+    "type": "menu",
+    "items": {
+      "tutorials": {
+        "title": "Tutorial",
+        "type": "page"
+      },
+      "template": {
+        "title": "Prompt Template",
+        "type": "page",
+        "theme": {
+          "layout": "raw"
+        }
+      }
+    }
   },
   "blog": {
     "title": "Blog",
