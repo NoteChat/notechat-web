@@ -1,7 +1,7 @@
 {
     "enterApp": "Enter App",
-    "bannerTitle": "A plugin-based text and document processing tool based on ChatGPT",
-    "bannerDesc": "Supports chat mode; Prompt template plugins; Supports URL access, Markdown document types",
+    "bannerTitle": "A plugin-based text document editing assistant based on ChatGPT",
+    "bannerDesc": "Supports Markdown, built-in Chat mode, and Prompt template plugins",
     "productPrice.title": "Product Pricing",
-    "productNotice.desc": "Alipay and WeChat Pay currently only support one-time payment method"
+    "productNotice.desc": "<b>Alipay and WeChat</b> payments currently only support <b>one-time payment</b> method"
 }

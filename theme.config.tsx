@@ -6,6 +6,11 @@ import { ExtraContent } from './components/navbar'
 import Head from './components/head'
 
 const config: DocsThemeConfig = {
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – NoteChat'
+    }
+  },
   logo: <span><Image alt="logo" src={Logo} height={42} style={{borderRadius: '3px'}}/></span>,
   head: Head,
   search: {
