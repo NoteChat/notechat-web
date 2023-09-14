@@ -15,6 +15,7 @@ const Head = () => {
         <meta name="keywords" content={frontMatter.keywords || 'NoteChat,AIGC,ChatGPT,ChatGPT-4'} />
         <link rel="icon" href="./favicon.png" type="image/png"></link>
         <meta property="og:url" content={url} />
+        <meta name="baidu-site-verification" content="codeva-WR1DyB3W5j" />
       </>
     )
 }
