@@ -5,5 +5,7 @@
     "productPrice.title": "产品价格",
     "productNotice.desc": "<b>支付宝、微信</b>支付目前只支持<b>单次付款</b>的方式",
     "Quick Start": "快速开始",
-    "Download": "下载"
+    "Download": "下载",
+    "Login": "登录",
+    "Register": "注册"
 }

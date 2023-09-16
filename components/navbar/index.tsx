@@ -4,8 +4,14 @@ import { getCookie, listenCookieChange } from "../../utils";
 import { useTranslation } from 'react-i18next';
 
 export function ExtraContent() {
-    const [content, setContent] = useState(<Link href="https://app.notechat.xyz/#/login">Login</Link>);
     const {t } = useTranslation();
+    const [content, setContent] = useState(
+        <span className="flex gap-1">
+            <Link href="https://app.notechat.xyz/#/login">{t('Login')}</Link>
+            |
+            <Link className=" under-line-0" href="https://app.notechat.xyz/#/register">{t('Register')}</Link>
+        </span>
+    );
 
     useEffect(() => {
      
