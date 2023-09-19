@@ -12,6 +12,9 @@ const config: DocsThemeConfig = {
     }
   },
   logo: <span><Image alt="logo" src={Logo} height={42} style={{borderRadius: '3px'}}/></span>,
+  project: {
+    link: 'https://github.com/notechat/notechat-web'
+  },
   head: Head,
   search: {
     placeholder: 'Search',

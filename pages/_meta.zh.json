@@ -7,7 +7,7 @@
     }
   },
   "download": {
-    "title": "下载",
+    "title": "客户端",
     "type": "page",
     "theme": {
       "layout": "raw"

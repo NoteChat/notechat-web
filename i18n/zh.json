@@ -1,11 +1,15 @@
 {
     "enterApp": "进入应用",
-    "bannerTitle": "一款基于 ChatGPT 的插件式的文档编辑助手",
+    "bannerTitle": "属于你的文本、文档一款基于 ChatGPT 的插件式的文档编辑助手",
     "bannerDesc": "支持 Markdown， 内置 Chat（GPT-3/GPT-4) 模式，Prompt 模版插件",
     "productPrice.title": "产品价格",
     "productNotice.desc": "<b>支付宝、微信</b>支付目前只支持<b>单次付款</b>的方式",
-    "Quick Start": "快速开始",
+    "Login Web": "登录网页版",
     "Download": "下载",
     "Login": "登录",
-    "Register": "注册"
+    "Register": "注册",
+    "Pricing": "价格",
+    "Scientific billing based on the actual number of tokens used": "Token 用多少，花多少！",
+    "Features": "功能"
+
 }
