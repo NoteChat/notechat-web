@@ -24,5 +24,7 @@
     "Context": "上下文",
     "promptHead": " 提示(每 1000 个令牌)",
     "completeHead": " 完成(每 1000 个令牌)",
-    "Contact": "联系我们"
+    "Contact": "联系我们",
+    "Tutorials": "教程",
+    "Prompt Templates": "Prompt 模板"
 }

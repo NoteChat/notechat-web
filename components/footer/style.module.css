@@ -1,0 +1,7 @@
+.footer {
+    display: grid;
+    grid-template-columns: 6.25rem 6.25rem;
+    grid-template-rows: auto auto;
+    grid-gap: .625rem;
+    justify-content:end;
+}
