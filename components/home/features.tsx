@@ -23,10 +23,12 @@ export default function Features() {
                                         <div className='codicon codicon-comment-discussion text-white'></div>
                                     </div>
                                     <h2 className="text-xl font-bold">
-                                        聊天
+                                        {t('Chat')}
                                     </h2>
                                     <p className="">
-                                        支持链式对话，支持 GPT-3、ChatGPT-4 等多种对话模型
+                                        {
+                                            t("ChatDesc")
+                                        }
                                     </p>
                                 </div>
                                 <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
@@ -34,10 +36,10 @@ export default function Features() {
                                         <div className='codicon codicon-edit text-white'></div>
                                     </div>
                                     <h2 className="text-xl font-bold ">
-                                        文档
+                                        {t('Docs')}
                                     </h2>
                                     <p className="">
-                                        支持文档自动补全、 URL 内容提取、Markdown 等文文档类型
+                                        {t('DocsDesc')}
                                     </p>
                                 </div>
                                 <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
@@ -45,10 +47,10 @@ export default function Features() {
                                         <div className='codicon codicon-star-full text-white'></div>
                                     </div>
                                     <h2 className="text-xl font-bold ">
-                                        收藏
+                                        {t('Star')}
                                     </h2>
                                     <p className="">
-                                        支持保存对话、问答内容，支持 Notion 一键同步
+                                        {t('StarDesc')}
                                     </p>
                                 </div>
                                 <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
@@ -56,10 +58,11 @@ export default function Features() {
                                         <div className='codicon codicon-extensions text-white'></div>
                                     </div>
                                     <h2 className="text-xl font-bold ">
-                                        插件
+                                        
+                                        {t('Plugin')}
                                     </h2>
                                     <p className="">
-                                        支持 Prompt 模板插件、自定义对话模板
+                                        {t('PluginDesc')}
                                     </p>
                                 </div>
                             </div>

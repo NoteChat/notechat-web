@@ -9,10 +9,10 @@ export default function Pricing() {
                     <div className="flex flex-col justify-center space-y-8 text-center">
                         <div className="space-y-2">
                             <h1 className="text-4xl tracking-tighter text-indigo-500">
-                                {t('Pricing')}
+                                {t('Price')}
                             </h1>
                             <p className="max-w-[600px] md:text-xl mx-auto text-gray-600">
-                                {t('Scientific billing based on the actual number of tokens used')}
+                                {t('PriceDesc')}
                             </p>
                         </div>
                         <div className="w-full max-w-full space-y-8 mx-auto">
@@ -22,22 +22,22 @@ export default function Pricing() {
                                         <tr className=" border">
                                             <th className="px-16  py-2">
                                                 <span className="text-gray-500">
-                                                    模型
+                                                    {t('Model')}
                                                 </span>
                                             </th>
                                             <th className="px-16 py-2">
                                                 <span className="text-gray-500">
-                                                    上下文
+                                                    {t('Context')}
                                                 </span>
                                             </th>
                                             <th className="px-16 py-2">
                                                 <span className="text-gray-500">
-                                                    提示(每 1000 个令牌)
+                                                    {t('promptHead')}
                                                 </span>
                                             </th>
                                             <th className="px-16 py-2">
                                                 <span className="text-gray-500">
-                                                    完成(每 1000 个令牌)
+                                                    {t('completeHead')}
                                                 </span>
                                             </th>
                                         </tr>

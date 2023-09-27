@@ -1,13 +1,15 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 export const Footer: React.FC<{}> = () => {
+    const { t } = useTranslation();
     const footerLinks = [
         {
             title: 'Github',
             href: 'https://github.com/notechat/notechat-web',
         },
         {
-            title: '联系我们',
+            title: t('Contact'),
             href: 'mailto:support@notechat.xyz'
         }
     ]

@@ -19,14 +19,11 @@
     "items": {
       "tutorials": {
         "title": "Tutorial",
-        "type": "page"
+        "href": "/document/tutorials"
       },
       "template": {
         "title": "Prompt Template",
-        "type": "page",
-        "theme": {
-          "layout": "raw"
-        }
+        "href": "/document/template"
       }
     }
   },

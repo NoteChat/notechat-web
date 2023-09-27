@@ -19,14 +19,11 @@
     "items": {
       "tutorials": {
         "title": "教程",
-        "type": "page"
+        "href": "/document/tutorials"
       },
       "template": {
         "title": "提示模版",
-        "type": "page",
-        "theme": {
-          "layout": "raw"
-        }
+        "href": "/document/template/0"
       }
     }
   },
