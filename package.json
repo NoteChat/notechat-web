@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
+    "@vscode/codicons": "^0.0.33",
     "classnames": "^2.3.2",
     "i18next": "^23.5.1",
     "i18next-browser-languagedetector": "^7.1.0",

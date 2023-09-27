@@ -49,10 +49,10 @@ export default function Pricing() {
                                             </td>
                                             <td className="px-16 py-2">4K</td>
                                             <td className="px-16 py-2">
-                                                $0.0018
+                                                Free
                                             </td>
                                             <td className="px-16 py-2">
-                                                $0.0024
+                                                Free
                                             </td>
                                         </tr>
                                         <tr className=" border border-gray-200">

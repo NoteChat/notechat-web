@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Logo from './logo.png'
 import { ExtraContent } from './components/navbar'
 import Head from './components/head'
+import { Footer } from './components/footer'
 
 const config: DocsThemeConfig = {
   useNextSeoProps() {
@@ -23,7 +24,10 @@ const config: DocsThemeConfig = {
     extraContent: <ExtraContent />,
   },
   footer: {
-    text: 'NoteChat © 2023 Prettify, LLC.',
+    text: <div className="w-full">
+      <Footer />
+      <div className='text-center mt-5'>NoteChat © 2023 Prettify, LLC.</div>
+    </div>
   },
   i18n: [
     { locale: 'zh', text: '中文' },

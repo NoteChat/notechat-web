@@ -11,11 +11,11 @@ function getIcon(platform) {
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                 >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g
                         id="SVGRepo_tracerCarrier"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                     ></g>
                     <g id="SVGRepo_iconCarrier">
                         {" "}
@@ -31,11 +31,11 @@ function getIcon(platform) {
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                 >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g
                         id="SVGRepo_tracerCarrier"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                     ></g>
                     <g id="SVGRepo_iconCarrier">
                         {" "}
@@ -54,11 +54,11 @@ function getIcon(platform) {
                     xmlns="http://www.w3.org/2000/svg"
                     fill="#000000"
                 >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g
                         id="SVGRepo_tracerCarrier"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                     ></g>
                     <g id="SVGRepo_iconCarrier">
                         {" "}
@@ -67,9 +67,9 @@ function getIcon(platform) {
                         <g
                             id="Page-1"
                             stroke="none"
-                            stroke-width="1"
+                            strokeWidth="1"
                             fill="none"
-                            fill-rule="evenodd"
+                            fillRule="evenodd"
                         >
                             {" "}
                             <g
@@ -101,7 +101,7 @@ function getIcon(platform) {
 }
 
 export default function DownloadButtons() {
-    const platforms = ["mac", "windows", "linux"];
+    const platforms = ["mac", "windows"];
 
     return (
         <div className="w-full pb-20 h-[42rem] flex items-center justify-center">
@@ -116,7 +116,7 @@ export default function DownloadButtons() {
                     <div className="flex space-x-4">
                         {platforms.map((platform) => (
                             <a
-                                href={`/path/to/${platform}-download`}
+                                href={platform === 'mac' ? `https://github.com/NoteChat/notechat-app/releases/download/0.9.0-canary.1/NoteChat-0.9.0-canary.1.dmg`  : 'https://github.com/NoteChat/notechat-app/releases/download/0.9.0-canary.1/NoteChat.Setup.0.9.0-canary.1.exe'}
                                 key={platform}
                                 className="flex items-center space-x-2 text-indigo-500 border border-indigo-500 hover:bg-indigo-500 hover:text-white py-2 px-4 rounded"
                             >

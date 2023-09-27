@@ -40,18 +40,12 @@ export const Banner: React.FC<{}> = () => {
 export function Video() {
     return (
         <div className="text-center items-center flex justify-center mt-16">
-                       <div className="container flex items-center justify-center">
-
-            <section className="w-[52rem] h-[30rem] bg-gray-200 rounded-md">
-                <video>
-                    <Image
-                        alt="NoteChat"
-                        src={productShort}
-                        width={500}
-                        height={500}
-                    />
-                </video>
-            </section>
+            <div className="container flex items-center justify-center">
+                <section className="w-[52rem] h-[30rem] rounded-md">
+                    <video id="my-video" className="w-full h-full" controls preload="auto">
+                        <source src={`/video/intro.mp4`} type="video/mp4" />
+                    </video>
+                </section>
             </div>
         </div>
     );
